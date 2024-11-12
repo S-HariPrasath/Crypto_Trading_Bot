@@ -20,9 +20,9 @@ How to deploy the bot in AWS ec2 instance?
     ```sudo apt install -y git python3-pip```
 4. Clone the GitHub Repository
    Replace <github-repo-url> with the actual URL of your GitHub repository:
-   ```git clone <github-repo-url>```
+   ```git clone [<github-repo-url>](https://github.com/S-HariPrasath/Crypto_Trading_Bot)```
    Navigate to the cloned directory:
-   ```cd <repo-directory>```
+   ```cd Crypto_Trading_Bot```
 5. Install Python Package Dependencies
    If your repository has a requirements.txt file, install dependencies:
    ```pip3 install -r requirements.txt```
@@ -40,10 +40,10 @@ Here’s an example User Data script:
 #!/bin/bash
 sudo apt update
 sudo apt install -y git python3-pip
-git clone <github-repo-url>
-cd <repo-directory>
+git clone [<github-repo-url>](https://github.com/S-HariPrasath/Crypto_Trading_Bot)
+cd Crypto_Trading_Bot
 pip3 install -r requirements.txt
-python3 your_script.py
+python3 main.py
 ```
 
 When launching the instance, you can add this script under the Advanced Details > User data section. This will execute the script on startup, cloning the repo, installing requirements, and running the Python script automatically.
