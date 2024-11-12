@@ -1,0 +1,8 @@
+ccxt
+datetime
+pandas
+pytz
+requests
+schedule
+smtplib
+time

@@ -1,0 +1,5 @@
+BINANCE_API_KEY = "<Your_Binance_api_key>"
+BINANCE_SECRET_KEY = "<Your_Binance_secret_key>"
+FROM_MAIL = "<from@email.com>"
+TO_MAIL = "<to@email.com>"
+MAIL_PASSWORD = "<password>"
