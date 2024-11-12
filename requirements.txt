@@ -4,5 +4,4 @@ pandas
 pytz
 requests
 schedule
-smtplib
-time
+python-dotenv

@@ -2,7 +2,7 @@ import smtplib
 from email.mime.text import MIMEText
 from config import FROM_MAIL, TO_MAIL, MAIL_PASSWORD
 
-class SendEmail:
+class EmailWrapper:
     def __init__(self) -> None:
         pass
 
